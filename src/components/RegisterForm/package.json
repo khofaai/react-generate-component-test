@@ -1,0 +1,6 @@
+{
+    "name": "RegisterForm",
+    "main": "./RegisterForm.js",
+    "version": "0.1.0",
+    "description": "Login form for authentication"
+}
