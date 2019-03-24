@@ -2,6 +2,10 @@
     "presets": ["env"],
     "plugins": [
         "transform-object-rest-spread",
-        "transform-react-jsx"
-    ]
+        "transform-react-jsx",
+        ["import", {
+        	"libraryName": "antd",
+        	"style": true
+        }]
+    ],
 }
