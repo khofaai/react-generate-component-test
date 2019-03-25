@@ -1,3 +1,3 @@
-import RegisterForm from './components/RegisterForm'
+import ReactCustomComponent from './components/ReactCustomComponent'
 
-export default RegisterForm;
+export default ReactCustomComponent;

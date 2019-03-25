@@ -1,7 +1,7 @@
 import React from 'react';
 
 /* jshint ignore:start */
-class RegisterForm extends React.Component {
+class ReactCustomComponent extends React.Component {
 
   constructor(props) {
     super(props);
@@ -11,28 +11,25 @@ class RegisterForm extends React.Component {
         password: '',
         customComponent: props.customComponent
     };
-    
     this.handleSubmit = this.handleSubmit.bind(this);
-    console.log('reload ....')
   }
 
   handleClick(e) {
     e.preventDefault();
     if( this.state.signup) {
       this.setState({
-        redirect: false
-    });
+          redirect: false
+      });
     } else {
       this.setState({
-        redirect: true
-    });
+          redirect: true
+      });
     }
   }
-
   
   handleSubmit(e) {
-      e.preventDefault();
-      this.props.form.validateFields((err, values) => {
+    e.preventDefault();
+    this.props.form.validateFields((err, values) => {
         if (!err) {
           try {
             const user = {
@@ -46,11 +43,7 @@ class RegisterForm extends React.Component {
     });
   }
 
-  
-
   render() {
-
-    const { getFieldDecorator } = this.props.form;
     const customComponent = this.state.customComponent({
       redirect: this.state.redirect,
       email: this.state.email,

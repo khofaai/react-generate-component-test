@@ -1,6 +1,6 @@
 {
-    "name": "RegisterForm",
-    "main": "./RegisterForm.js",
+    "name": "ReactCustomComponent",
+    "main": "./ReactCustomComponent.js",
     "version": "0.1.0",
     "description": "Login form for authentication"
 }
