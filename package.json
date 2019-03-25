@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "webpack --watch",
-    "build": "webpack --mode=production"
+    "build": "webpack"
   },
   "author": {
     "name": "<your npm name>"
