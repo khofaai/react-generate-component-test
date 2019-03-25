@@ -1,16 +1,14 @@
-# LoginForm
-Login portal for user authentication // Login section
+# ReactCustomComponent
+
+React Component that hold a specific functionnalities for any adapted UI component
 
 ## Props
 
 | Name | Description |
 |----|----|
-| user_email | user's email|
-| user_password | user's password |
+| customComponent | displayed jsx |
 
 
 ## Dependencies/ChildComponent
 
-| Name | Description |
-|----|----|
-| LoginForm | athentication form |
+NONE

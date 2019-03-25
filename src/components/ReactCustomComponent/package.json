@@ -1,5 +1,5 @@
 {
-    "name": "ReactCustomComponent",
+    "name": "react-custom-component",
     "main": "./ReactCustomComponent.js",
     "version": "0.1.0",
     "description": "Login form for authentication"
